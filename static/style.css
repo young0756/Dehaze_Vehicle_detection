@@ -1,0 +1,50 @@
+body {
+    font-family: "微软雅黑", Arial, sans-serif;
+    margin: 0;
+}
+button {
+    font-size: 15px;
+    margin: 5px 5px;
+    padding: 8px 16px;
+}
+#imageInput {
+    font-size: 17px;
+    padding: 5px;
+    margin-right: 700px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 120px;
+    background: #2c3e50;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.sidebar button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.2s;
+}
+.sidebar button:hover, .sidebar button.active {
+    background: #778899;
+}
+.main-content {
+    flex: 1;
+    background: #FFFFF0;
+    padding: 40px;
+}
