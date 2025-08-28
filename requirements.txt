@@ -1,0 +1,27 @@
+# 深度学习框架 (CUDA 11.1 对应版本；你现在 torch==1.9.0+cu111 已经能跑 YOLOv5s)
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+torchaudio==0.9.0
+
+# YOLOv5 依赖
+matplotlib==3.7.5
+numpy==1.24.4
+opencv-python==4.11.0.86
+Pillow==10.4.0
+PyYAML==6.0.2
+scipy==1.10.1
+tqdm==4.67.1
+seaborn==0.13.2
+
+# 数据处理
+pandas==2.0.3
+
+# 去雾模型 (FFA-Net 常用)
+albumentations==1.4.18
+imageio==2.35.1
+
+# Flask Web 部署
+Flask==3.0.3
+Werkzeug==3.0.6
+Jinja2==3.1.6
+itsdangerous==2.2.0
